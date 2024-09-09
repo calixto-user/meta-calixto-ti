@@ -8,7 +8,7 @@ LICENSE = "MIT"
 
 inherit core-image
 
-IMAGE_INSTALL += "packagegroup-core-boot python3 python3-dbus sudo libubootenv-bin"
+IMAGE_INSTALL += "packagegroup-core-boot python3 python3-dbus sudo libubootenv-bin i2c-tools canutils evtest"
 CORE_IMAGE_EXTRA_INSTALL += "inetutils apmd"
 IMAGE_ROOTFS_SIZE ?= "8192"
 
